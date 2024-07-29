@@ -25,6 +25,7 @@ body {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   scroll-behavior: smooth;
+
 }
 li {
   list-style: none;
@@ -127,8 +128,9 @@ button:hover {
 }
 .cookies {
   position: absolute;
+  z-index: 5;
   left: 70%;
-  top: 80%;
+  top: 70%;
   right: 5%;
   max-width: 40%;
   text-transform: uppercase;
